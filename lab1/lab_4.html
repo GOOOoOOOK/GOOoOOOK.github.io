@@ -16,7 +16,7 @@
 		</figure>
     
 		<figure>
-			<img src="/globus.gif" alt="Глобус крутится">
+			<img src="globus.gif" alt="Глобус крутится">
 			<figcaption>Глобус крутится</figcaption>
 		</figure>
        
@@ -25,7 +25,7 @@
 		<h2>Альтернативный текст</h2>
 		<p>Атрибут <code>alt</code> предоставляет краткое описание изображения. Он содержит альтернативный текст, который отображается, если изображение не может быть выведено. Пользовательские агенты должны отображать альтернативный текст, если они не поддерживают изображения, или сконфигурированы так, чтобы не показывать изображения (отключен показ изображений).</p>
 		<figure>
-			<img src="/aquaria.jpg" alt="Черепаха">
+			<img src="aquaria.jpg" alt="Черепаха">
 		</figure>
 		<h2>Размеры изображения</h2>
 		<p>Атрибуты <code>width</code> и <code>height</code> задают размеры области изображения. Если оба атрибута не заданы, размер изображения будет определен после его полной загрузки, после чего размеры области будут изменены для размещения содержания картинки.
@@ -38,7 +38,7 @@
 		Атрибут <code>srcset</code> задаёт путь к графическим файлам с учётом размера изображения и устройств.
 		</p>
 		<figure>
-            		<img src="/muscle.png" alt="Мускулы" width="300" height="200">
+            		<img src="muscle.png" alt="Мускулы" width="300" height="200">
             		<figcaption>Мускулы</figcaption>
         	</figure>
 		
@@ -49,7 +49,7 @@
 		Обычно применяется для иллюстраций, фрагментов кода, схем, графиков, диаграмм и др.
 		Элемент <code>figcaption</code> содержит описание для элемента <code>figure</code>. Он должен быть первым или последним элементом в группе.</p>
 		<figure>
-            		<img src="/mushroom.jpg" alt="Грибочек">
+            		<img src="mushroom.jpg" alt="Грибочек">
             		<figcaption>Гриб в лесу <code>srcset</code> и <code>sizes</code>.
 			</figcaption>
         	</figure>
@@ -64,10 +64,10 @@
 		</p>		
 		<figure>
             		<picture>
-                		<source media="(min-width: 300px)" srcset="/mushroom_portrait.jpg">
-                		<source media="(min-width: 900px)" srcset="/mushroom_retina.jpg">
-                		<source media="(max-width: 500px)" srcset="images/mushroom_landscape.jpg">
-                		<img src="/mushroom.jpg" alt="Запасное изображение">
+                		<source media="(min-width: 300px)" srcset="mushroom_portrait.jpg">
+                		<source media="(min-width: 900px)" srcset="mushroom_retina.jpg">
+                		<source media="(max-width: 500px)" srcset="mushroom_landscape.jpg">
+                		<img src="mushroom.jpg" alt="Запасное изображение">
             		</picture>
             		<figcaption>Грибы <code>picture</code> с разными источниками изображений.</figcaption>
        		</figure> 
